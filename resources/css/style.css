@@ -43,3 +43,11 @@ a {
 .large {
   width: 630px;
 }
+
+.medium {
+  width: 300px;
+}
+
+.small {
+  width: 240px;
+}
