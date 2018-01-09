@@ -1,3 +1,7 @@
+body {
+  margin: 0px;
+}
+
 header {
   display: flex;
   background-color: white;
@@ -26,6 +30,7 @@ header {
 .navigation {
   display: flex;
   width: 350px;
+  padding-top: 5px;
 }
 
 .navigation ul span {
@@ -42,29 +47,39 @@ header a {
 
 .container {
   display: flex;
-  flex-flow: column;
-  justify-content: space-around;
+  flex-direction: column;
+  padding-top: 40px;
+  margin: 0px;
 }
 
 .main {
   display: flex;
-  width: 1300px;
+  justify-content: center;
+  width: 100%;
   height: 1200px;
-  border: 1px solid black;
+  padding-top: 80px;
 }
 
 .two-col {
   display: flex;
+  justify-content: space-between;
+}
+
+two-col h2 {
+  font-size: 30px;
+  margin: 0px;
 }
 
 .orca{
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
+  width: 300px;
 }
 
 .burger {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
+  width: 300px;
 }
 
 .story {
@@ -75,9 +90,10 @@ header a {
 
 .mother {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-image: url("../../resources/images/img-story-main.png");
-  padding: 65px 0px;
+  height: 300px;
 }
 
 .mother p {
@@ -86,25 +102,31 @@ header a {
   font-weight: bold;
   font-size: 40px;
   color: white;
-  justify-content: center;
+  margin-left: 20px;
 }
 
 .earth {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-image: url("../../resources/images/img-story-2.png");
-  padding: 65px 10px;
+  height: 300px;
 }
 
 .research {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-image: url("../../resources/images/img-story-3.png");
-  padding: 65px 0px;
+  height: 300px;
 }
 
 .cats {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-image: url("../../resources/images/img-story-1.png");
-  padding: 85px 0px;
+  height: 300px;
 }
 
 .cookie {
@@ -113,6 +135,16 @@ header a {
   font-weight: bold;
   font-family: Georgia;
   color: black;
+  margin-bottom: 25px;
+}
+
+.cookie img {
+  width: 235px;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0px;
 }
 
 .news span {
@@ -141,6 +173,7 @@ header a {
 
 .medium {
   width: 300px;
+  margin: 0px 30px;
 }
 
 .small {
@@ -148,7 +181,6 @@ header a {
 }
 
 .container div {
-  border: 1px solid black;
 }
 
 footer {
